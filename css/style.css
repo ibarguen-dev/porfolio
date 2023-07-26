@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+* {
+    font-family: "FS Pimlico", sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    background: rgb(255, 255, 255);
+
+}
+
+.div1, .div2{
+    height: 100vh;
+}
+
+.div2{
+    background: cyan;
+    perspective: 1000px;
+    overflow: hidden;
+}
+
+
+
+.div1{
+    background: salmon;
+    perspective: 1000px;
+    overflow: hidden;
+}
+
+.test{                                                        
+    margin-left: 400px;
+    height: 200px;
+    width: 300px;
+    transition: background-color 0.5s ease;
+    background: rgb(180, 60, 60);
+    position: absolute;
+    transform-style: preserve-3d;
+    top: 50%;
+    right: 30%;
+    margin-top: -100px;
+    margin-right: -150px;
+    z-index: 0;
+}
+
+.square h2{
+    color:rgb(56, 56, 56);
+    margin-top: 220px;
+}
+
+.square2{                                                         /* left sided   */
+    margin-left: -400px;
+    height: 200px;
+    width: 300px;
+    transition: background-color 0.5s ease;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    transform-style: preserve-3d;
+    top: 50%;
+    left: 30%;
+    margin-top: -100px;
+    margin-left: -150px;
+    z-index: -1;
+}
+
+.square2 h2{
+    color:rgb(56, 56, 56);
+    margin-top: 220px;
+}
+
+.square3{                                                         /* right sided   */
+    margin-left: -400px;
+    height: 200px;
+    width: 300px;
+    transition: background-color 0.5s ease;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    transform-style: preserve-3d;
+    top: 50%;
+    right: 30%;
+    margin-top: -100px;
+    margin-right: -150px;
+    z-index: -2;
+}
+
+.square3 h2{
+    color:rgb(56, 56, 56);
+    margin-top: 220px;
+}
+
+.square4{                                                         /* left sided   */
+    margin-left: -400px;
+    height: 200px;
+    width: 300px;
+    transition: background-color 0.5s ease;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    transform-style: preserve-3d;
+    top: 50%;
+    left: 30%;
+    margin-top: -100px;
+    margin-left: -150px;
+    z-index: -3;
+}
+
+.square4 h2{
+    color:rgb(56, 56, 56);
+    margin-top: 220px;
+}
+
+.square5{                                                         /* right sided   */
+    margin-left: -400px;
+    height: 200px;
+    width: 300px;
+    transition: background-color 0.5s ease;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    transform-style: preserve-3d;
+    top: 50%;
+    right: 30%;
+    margin-top: -100px;
+    margin-right: -150px;
+    z-index: -4;
+}
+
+.square5 h2{
+    color:rgb(56, 56, 56);
+    margin-top: 220px;
+}
