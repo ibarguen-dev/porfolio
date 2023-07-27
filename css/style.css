@@ -1,3 +1,32 @@
-body{
+.about{
+  height:100vh;
   background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.student{
+  height: 100vh;
+  background: rgb(240, 74, 74);
+}
+.btn-cv{
+  border-radius: 50px;
+}
+
+main img{
+  border: 7px solid aqua;
+}
+
+@media screen and (max-width:988px) {
+  .student{
+    height: 95vh;
+    background: rgb(240, 74, 74);
+  }
+}
+
+@media screen and (max-width:500px) {
+  .student{
+    height: 160vh;
+    background: rgb(240, 74, 74);
+  }
 }
