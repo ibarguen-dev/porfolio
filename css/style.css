@@ -2,13 +2,13 @@ body{
     background: black;
 }
 .about{
-  height:100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .student{
-  height: 100%;
+
 }
 .btn-cv{
   border-radius: 50px;
