@@ -1,15 +1,16 @@
 body{
     background: black;
 }
+.cardStudent{
+  background: white;
+}
 .about{
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.student{
 
-}
 .btn-cv{
   border-radius: 50px;
 }
