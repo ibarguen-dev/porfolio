@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 body{
     background: black;
-}
+    font-family: 'Roboto', sans-serif;
+    overflow-x:hidden ;
+} 
 .cardStudent{
   background: white;
 }
+
 .about{
 
   display: flex;
@@ -11,14 +15,14 @@ body{
   align-items: center;
 }
 
-.btn-cv{
+ .btn-cv{
   border-radius: 50px;
 }
 .Portafolio{
-    height: 90vh;
+    height: 90vh; 
 }
-main img{
-  border: 7px solid aqua;
+.img-mi img{
+  border: 7px solid rgb(88, 88, 88);
 }
 .download{
     display: flex;
@@ -30,3 +34,4 @@ main img{
     justify-content: center;
     text-decoration: none;  
 }
+
