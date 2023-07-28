@@ -1,24 +1,26 @@
 gsap.registerPlugin(ScrollTrigger);
-
-gsap.from(".cp",{
-    scrollTrigger:{
+gsap.from(".student", {
+    scrollTrigger: {
         trigger:"#student",
         start:"top 500px",
-        end:" top 500px",    
-    },
-    color:"transparent",
-    duration:1
-})
+        end:" top px",  
+        scrub:1,
+        // markers:true
+    }, 
+    ease:"none",
+    x: -1950,
+    duration:9
+});
 
 gsap.from(".cardStudent",{
     scrollTrigger:{
         trigger:"#student",
         start:"top 500px",
         end:" top 500px",  
-        
+        scrub:1,
         //markers:true
     },
-    background:"transparent",
+    background:"red",
     rotation:250,
     duration:1
 })
@@ -28,58 +30,16 @@ gsap.from(".card-port",{
         trigger:"#Portafolio",
         start:"top 500px",
         end:" top 500px",
-        
+        scrub:1,
     },
     background:"transparent"
 })
 
-gsap.to(".hestia",{
+gsap.from("#Arbol",{
     scrollTrigger:{
-        trigger:".start",
+        trigger:"#Arbol",
         // markers:true,
         end:" top ", 
         start:"top 100px",
-    },
-    background:"transparent",
-    color:"white",
-    duration:3
-})
-
-gsap.to(".pollo",{
-    scrollTrigger:{
-        trigger:".hestia",
-        // markers:true,
-        end:" top ", 
-        start:"top 100px",
-    },
-    background:"transparent",
-    color:"white",
-    rotation:360,
-    duration:3
-})
-
-gsap.to(".stock",{
-    scrollTrigger:{
-        trigger:".pollo",
-        // markers:true,
-        end:" top ", 
-        start:"top 100px",
-    },
-    background:"transparent",
-    color:"white",
-    rotation:360,
-    duration:3
-})
-
-gsap.to(".Arbol",{
-    scrollTrigger:{
-        trigger:".stock",
-        // markers:true,
-        end:" top ", 
-        start:"top 100px",
-    },
-    background:"transparent",
-    color:"white",
-    rotation:360,
-    duration:3
+    }
 })
