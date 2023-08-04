@@ -16,6 +16,18 @@ gsap.from(".about", {
     duration:1
 });
 
+gsap.from(".s-m",{
+    scrollTrigger:{
+        trigger:".about",
+        start:"top center",
+        end:" top center",  
+        scrub:1,
+        // markers:true
+    },
+    color:"transparent",
+    duration:1,
+    x:-450
+})
 gsap.from(".h-t",{
     scrollTrigger:{
         trigger:".hestia-t",
