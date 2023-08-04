@@ -18,7 +18,7 @@ gsap.from(".about", {
 
 gsap.from(".h-t",{
     scrollTrigger:{
-        trigger:".h-t",
+        trigger:".hestia-t",
         start:"top center",
         end:" top center",  
         scrub:1,
@@ -26,34 +26,48 @@ gsap.from(".h-t",{
     },
     color:"transparent",
     duration:1,
-    x:450
+    x:-450
 })
 
-// gsap.from(".p-h",{
-//     scrollTrigger:{
-//         trigger:".p-h",
-//         start:"top center",
-//         end:" top center",  
-//         scrub:1,
-//         // markers:true
-//     },
-//     color:"transparent",
-//     duration:1,
-//     x:470
-// })
+gsap.from(".p-h",{
+    scrollTrigger:{
+        trigger:".p-h",
+        start:"top center",
+        end:" top center",  
+        scrub:1,
+        // markers:true
+    },
+    color:"transparent",
+    duration:1,
+    x:-470
+})
 
-// gsap.from(".a",{
-//     scrollTrigger:{
-//         trigger:".s-h",
-//         start:"top center",
-//         end:" top center",  
-//         scrub:1,
-//         markers:true
-//     },
-//     color:"transparent",
-//     duration:1,
-//     x:-450
-// })
+
+gsap.from(".s-h",{
+    scrollTrigger:{
+        trigger:".s",
+        start:"top center",
+        end:" top center",  
+        scrub:1,
+        // markers:true
+    },
+    color:"transparent",
+    duration:1,
+    x:-450
+})
+gsap.from(".s-a",{
+    scrollTrigger:{
+        trigger:".f",
+        start:"top center",
+        end:" top center",  
+        scrub:1,
+        // markers:true
+    },
+    color:"transparent",
+    duration:1,
+    x:-450
+})
+
 
 // gsap.from(".card-port",{
 //     scrollTrigger:{

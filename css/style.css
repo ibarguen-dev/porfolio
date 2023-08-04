@@ -7,7 +7,10 @@ body{
     overflow-x: hidden;
 
 } 
+hr{
 
+  color: #ffffff;
+}
 .name{
   color: white;
   font-size: 70px;
@@ -39,15 +42,8 @@ body{
   align-items: center;
   height: 50%;
 }
-.h-t{
-  /* background: red; */
-  color: rgb(255, 255, 255);
-}
-.p-h{
-  color: rgb(255, 255, 255);
-}
-.s-h{
-  color: rgb(255, 255, 255);
+.texto{
+  color: white;
 }
 .card{
   background: transparent;
