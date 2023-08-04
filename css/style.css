@@ -1,37 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body{
     background: black;
-    font-family: 'Roboto', sans-serif;
-    overflow-x:hidden ;
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
 } 
-.cardStudent{
-  background: white;
+.name{
+  color: white;
+  font-size: 70px;
+}
+.dev{
+  color: white;
+}
+.navbar {
+  position: fixed; /* Fija el nav en la ventana del navegador */
+  top: 0; /* Lo coloca en la parte superior */
+  left: 0; /* Lo coloca en la parte izquierda */
+  width: 100%; /* Ancho completo */
+  background-color: #f0f0f0; /* Color de fondo del nav */
+  padding: 10px; /* Espacio de relleno */
+  z-index: 1;
 }
 
-.about{
-
+.index{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+ 
+}
+
+.about{
+  height: 50%;
+  /* background: red; */
+ 
+}
+.card{
+  background: transparent;
+}
+
+.sobre{
+  font-size: 20px;
+}
+.student{
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
  .btn-cv{
   border-radius: 50px;
 }
-.Portafolio{
-    height: 90vh; 
-}
-.img-mi img{
-  border: 7px solid rgb(88, 88, 88);
-}
+
+
 .download{
     display: flex;
     justify-content: center;
     text-decoration: none;
 }
-.img-mi{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;  
+.contacto a{
+  text-decoration: none;
 }
-
+@media screen and (max-width:988px){
+  .index{
+    text-align: center;
+  }
+  .index h1{
+    font-size: 30px;
+  }
+}
