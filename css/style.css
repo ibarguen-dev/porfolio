@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body{
-    background: black;
+    background: #000000;
     font-family: 'Anton', sans-serif;
     margin: 0;
     padding: 0;
@@ -22,6 +22,7 @@ hr{
   position: fixed; /* Fija el nav en la ventana del navegador */
   top: 0; /* Lo coloca en la parte superior */
   left: 0; /* Lo coloca en la parte izquierda */
+  padding-top: 5px;
   width: 100%; /* Ancho completo */
   background-color: #f0f0f0; /* Color de fondo del nav */
   padding: 10px; /* Espacio de relleno */
@@ -57,7 +58,7 @@ hr{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  /* height: 100%; */
 }
 
  .btn-cv{
