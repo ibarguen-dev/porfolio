@@ -123,7 +123,7 @@ p{
 }
 @media screen and (max-width:414px) {
   .index{
-    height: 114%;
+    height: 114vh;
   }
   .index h1{
     font-size: 40px;
@@ -132,18 +132,18 @@ p{
     font-size: 50px;
   }
   .about{
-    height: 90%;
+    height: 90vh;
   }
 
 }
 @media screen and (max-width:393px) {
   .index{
-    height: 140%;
+    height: 140vh;
   }
 }
 @media screen and (max-width:390px) {
   .index{
-    height: 140%;
+    height: 140vh;
   }
   .titulo{
     font-size: 40px;
@@ -155,7 +155,7 @@ p{
 
 @media screen and (max-width:375px) {
   .index{
-    height: 110%;
+    height: 110vh;
   }
   .index h1{
     font-size: 40px;
@@ -174,7 +174,7 @@ p{
 
 @media screen and (max-width:360px) {
   .index{
-    height: 125%;
+    height: 125vh;
   }
   .titulo{
     font-size: 35px;
