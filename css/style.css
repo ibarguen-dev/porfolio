@@ -237,6 +237,11 @@ p{
     font-size: 40px;
   }
 }
+@media screen and (max-width:540px){
+  .about{
+    height: 110vh;
+  }
+}
 @media screen and (max-width:414px) {
   .index{
     height: 114vh;
@@ -251,6 +256,12 @@ p{
     height: 90vh;
   }
 
+}
+
+@media screen and (max-width:412px) {
+  .about{
+    height: 160vh;
+  }
 }
 @media screen and (max-width:393px) {
   .index{
