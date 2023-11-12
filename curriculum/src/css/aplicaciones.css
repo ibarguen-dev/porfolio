@@ -1,0 +1,15 @@
+.aplicacionesArticles{
+    height: 50vh;
+}
+.aplicacionesArticles  h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.aplicacionesArticles div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}

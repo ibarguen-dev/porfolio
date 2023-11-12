@@ -1,0 +1,15 @@
+.homeArticle{
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.homeArticle h1{
+    font-size: 5rem;
+}
+
+.homeArticle p{
+    font-size: 4.5rem;
+}

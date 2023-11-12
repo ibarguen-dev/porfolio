@@ -1,0 +1,62 @@
+.contenedorCarta{
+    width:40%;
+    height:40%;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+}
+.contenedorCarta h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.contenedorCarta img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); /* Centra y escala a 0 inicialmente */
+    transform-origin: center center; /* Define el punto de origen de la transformación en el centro */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s, transform 0.3s; /* Agrega animación de escala */
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.contenedorCarta:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, -50%) scale(1); 
+    display: block;
+}
+.contenedorCarta div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorCarta a{
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: solid 1px blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedorCarta a:hover{
+    background-color: blueviolet;
+    transition: background-color 0.5s;
+}

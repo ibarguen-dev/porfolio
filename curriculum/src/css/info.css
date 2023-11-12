@@ -1,0 +1,18 @@
+.articleInfo{
+    display: flex;
+    background: rgb(137, 37, 251);
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.articleInfo h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.articleInfo p{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.4rem;
+}
