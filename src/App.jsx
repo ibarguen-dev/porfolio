@@ -1,10 +1,9 @@
-
-import Home from './component/Home'
-import Info from './component/info'
-import Aplicaciones from './component/aplicaciones'
-import Skills from './component/skills'
-import Estudios from './component/estudios'
-import Contactos from './component/contactos'
+import Home from './component/Home.jsx'
+import Info from './component/info.jsx'
+import Aplicaciones from './component/aplicaciones.jsx'
+import Skills from './component/skills.jsx'
+import Estudios from './component/estudios.jsx'
+import Contactos from './component/contactos.jsx'
 import './css/App.css'
 
 function App() {

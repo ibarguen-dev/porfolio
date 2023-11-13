@@ -1,5 +1,5 @@
 import '../css/skills.css';
-import Skill from './skill';
+import Skill from './skill.jsx';
 import { ConstSkill } from '../js/const';
 const Skills = () => {
 

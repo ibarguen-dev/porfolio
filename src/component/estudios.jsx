@@ -1,5 +1,5 @@
 import { ESTUDIOS } from "../js/const";
-import Estudio from "./estudio";
+import Estudio from "./estudio.jsx";
 import '../css/estudios.css'
 const Estudios = () => {
 
