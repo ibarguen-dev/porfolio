@@ -1,6 +1,6 @@
-// import Home from '../component/home.jsx'
+import Home from '../component/home.jsx'
 import Info from '../component/info.jsx'
-import Aplicaciones from './component/aplicaciones.jsx'
+import Aplicaciones from './aplicaciones.jsx'
 import Skills from '../component/skills.jsx'
 import Estudios from '../component/estudios.jsx'
 import Contactos from '../component/contactos.jsx'
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <main>
-      {/* <Home/> */}
+      <Home/>
       <Info/>
       <Aplicaciones/>
       <Skills/>

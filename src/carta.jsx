@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import '../css/carta.css'
+import './css/carta.css'
 const Carta = ({img,title,info,link}) => {
 
     return(

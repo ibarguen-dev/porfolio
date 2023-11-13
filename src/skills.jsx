@@ -1,6 +1,6 @@
-import '../css/skills.css';
+import './css/skills.css';
 import Skill from './skill.jsx';
-import { ConstSkill } from '../js/const';
+import { ConstSkill } from './js/const.js';
 const Skills = () => {
 
     return(

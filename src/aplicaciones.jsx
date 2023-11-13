@@ -1,5 +1,5 @@
-import '../css/aplicaciones.css'
-import { apps } from '../js/const'
+import './css/aplicaciones.css'
+import { apps } from './js/const'
 import Carta from './carta'
 const Aplicaciones = () => {
 
