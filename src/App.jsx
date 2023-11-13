@@ -1,4 +1,4 @@
-import Home from '../component/Home.jsx'
+import Home from '../component/home.jsx'
 import Info from '../component/info.jsx'
 import Aplicaciones from './component/aplicaciones.jsx'
 import Skills from '../component/skills.jsx'
