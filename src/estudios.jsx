@@ -1,4 +1,4 @@
-import { ESTUDIOS } from "../js/const";
+import { ESTUDIOS } from "./js/const.js";
 import Estudio from "./estudio.jsx";
 import '../css/estudios.css'
 const Estudios = () => {
