@@ -1,0 +1,116 @@
+.carta{
+    
+    position: relative;
+    width: 220px;
+    height: 250px;
+    background: #fafafa94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carta .percent{
+  
+    position: relative;
+    width: 150px;
+    height: 150px;
+    
+  }
+  
+  .carta .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform:  rotate(270deg);
+  }
+  
+  .carta .percent svg circle {
+    width: 100%;
+    height: 100%;
+    fill:  transparent;
+    stroke-width: 2;
+    stroke:#ffffff ;
+    transform:  translate(5px,5px);
+  
+  }
+  
+  .carta .percent svg circle:nth-child(2){
+    stroke: var(--clr);
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * var(--num)) / 100);
+    opacity: 0;
+    animation: fadein 1s linear forwards;
+    animation-delay: 2.5s;
+  }
+  
+  @keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
+  .dot{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    /* transform:  rotate(calc(3.6deg * var(--num))); */
+    animation:  animateDot 2s linear forwards;
+  }
+  
+  @keyframes animateDot{
+    0%{
+        transform:  rotate(0deg);
+    }
+    100%{
+        transform:  rotate(calc(3.6deg * var(--num)));
+    }
+  }
+  .dot::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--clr);
+  
+    box-shadow:  0 0 10px var(--clr), 0 0 30px var(--clr);
+  
+  }
+  .number{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .number h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 2.5em;
+  } 
+  .number h2 span{
+    color: rgb(0, 0, 0);
+    font-size: 0.5em;
+  }
+  .number p{
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 1.0em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(7, 7, 7, 0.75);
+  }  
+  .link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+  }
