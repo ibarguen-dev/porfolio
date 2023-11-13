@@ -1,0 +1,20 @@
+.articleSkills{
+    margin-top: 5%;
+}
+.articleSkills h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.articleSkills_section{
+    display: flex;
+    background: rgb(137, 37, 251);
+    padding-bottom: 5%;
+    padding-top: 5%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+

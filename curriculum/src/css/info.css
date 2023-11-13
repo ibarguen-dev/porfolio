@@ -7,12 +7,30 @@
 }
 .articleInfo h1{
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 .articleInfo p{
     margin-left: 20%;
     margin-right: 20%;
-    font-size: 1.4rem;
+    font-size: 2rem;
+}
+
+
+
+@media (max-width:900px) {
+    .articleInfo{
+        height: 100%;
+    }
+
+}
+
+@media (max-width:650px) {
+    .articleInfo h1{
+        font-size: 2.5rem;
+    }
+    .articleInfo p{
+        font-size: 1.5rem;
+    }
 }

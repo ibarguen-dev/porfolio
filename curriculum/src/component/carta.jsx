@@ -1,5 +1,5 @@
+import PropTypes from 'prop-types';
 import '../css/carta.css'
-import test from '../assets/test.jpg'
 const Carta = ({img,title,info,link}) => {
 
     return(
@@ -18,5 +18,10 @@ const Carta = ({img,title,info,link}) => {
     )
 }
 
-
+Carta.propTypes = {
+    img: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    info: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+  };
 export default Carta
