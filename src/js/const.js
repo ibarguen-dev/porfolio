@@ -3,7 +3,7 @@ export const apps = [
     {
         img:"https://firebasestorage.googleapis.com/v0/b/curriculum-vatea.appspot.com/o/npm.png?alt=media&token=f3bdea72-0b84-4ec7-b4b4-cf1425bdfd33",
         title:"react router iba-dev",
-        info:"Es un enruptador para poder crear SPA en react",
+        info:"Es un enrutador para poder crear SPA en react",
         link:"https://www.npmjs.com/package/react-router-iba-dev"
     },
     {
