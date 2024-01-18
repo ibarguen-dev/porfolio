@@ -3,18 +3,23 @@ import '../css/carta.css'
 const Carta = ({img,title,info,link}) => {
 
     return(
-        <section className="contenedorCarta">
-            <div>
-                <img src={img} alt={title} />
-            </div>
-            <div className='overlay'>
-                <h1>{title}</h1>
-                <p>{info}</p>
+        <article className='contenedor'>
+            <strong>{title}</strong>
+            <p>{info}</p>
+            <section className="contenedorCarta">
                 <div>
-                    <a href={link} target='blank'>visitar web</a>
+                    <img src={img} alt={title} />
                 </div>
-            </div>
-        </section>
+                <div className='overlay'>
+                    <h1>{title}</h1>
+                    <p>{info}</p>
+                    <div>
+                        <a href={link} target='blank'>visitar web</a>
+                    </div>
+                </div>
+            </section>
+        </article>
+
     )
 }
 

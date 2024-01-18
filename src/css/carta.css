@@ -1,5 +1,9 @@
+.contenedor{
+    margin: 0% 12%;
+}
+
 .contenedorCarta{
-    width:40%;
+    width:90%;
     height:40%;
     overflow: hidden;
     border-radius: 20px;

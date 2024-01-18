@@ -6,7 +6,7 @@ const Aplicaciones = () => {
         return(
             <article className="aplicacionesArticles">
                 <section>
-                    <h1>Mis Aplicaciones</h1>
+                    <h1> <span><i className="bi bi-code-slash"></i></span> Proyectos</h1>
                     <div>
                         {
                             apps.map((mp,index) => {
