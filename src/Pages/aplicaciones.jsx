@@ -7,7 +7,7 @@ const Aplicaciones = () => {
             <article className="aplicacionesArticles">
                 <section>
                     <h1> <span><i className="bi bi-code-slash"></i></span> Proyectos</h1>
-                    <div>
+                    <div className='contedorCartas'>
                         {
                             apps.map((mp,index) => {
                                 return(
@@ -16,7 +16,8 @@ const Aplicaciones = () => {
                                     img={mp.img}
                                     title={mp.title}
                                     info={mp.info}
-                                    link={mp.link}
+                                    buttonGithub={mp.buttonGithub}
+                                    buttonWeb={mp.buttonWeb}
                                     />
                                 )
                             })

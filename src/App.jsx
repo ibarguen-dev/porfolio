@@ -2,7 +2,6 @@
 import Home from "./Pages/home"
 import Aplicaciones from "./Pages/aplicaciones"
 import Info from "./Pages/info"
-import Skills from "./Pages/skills"
 import './css/App.css'
 import Estudios from "./Pages/estudios"
 
