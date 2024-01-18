@@ -1,0 +1,12 @@
+.contenedorFooter{
+    margin-top: 10px;
+    background: #af82ff;
+    padding: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+.contenedorFooter section{
+    margin-left: 10px;
+    text-align: center;
+}
