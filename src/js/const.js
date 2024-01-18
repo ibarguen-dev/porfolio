@@ -121,7 +121,7 @@ export const apps = [
 
  export const ESTUDIOS = [
     {
-        name:"Técnico en sistema",
+        name:"Técnico en sistemas",
         university:"Sena",
         time:"Febrero:2020 - Marzo:2021"
     },
