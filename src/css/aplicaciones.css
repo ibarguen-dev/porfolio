@@ -7,7 +7,7 @@
     font-size: 3.5rem;
     font-weight: bold;
 }
-.aplicacionesArticles div{
+.contedorCartas{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
