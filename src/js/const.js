@@ -3,7 +3,7 @@ export const apps = [
     {
         img:"https://firebasestorage.googleapis.com/v0/b/curriculum-vatea.appspot.com/o/npm.png?alt=media&token=f3bdea72-0b84-4ec7-b4b4-cf1425bdfd33",
         title:"react router iba-dev",
-        info:"Es un enrutador para poder crear SPA en react",
+        info:"Es un componente basado en react-router, que permite en rutar las paginas estáticas de react.",
         link:"https://www.npmjs.com/package/react-router-iba-dev",
         buttonGithub:"https://github.com/ibarguen-dev/react-router-iba-dev",
         buttonWeb:"https://www.npmjs.com/package/react-router-iba-dev"
@@ -11,7 +11,7 @@ export const apps = [
     {
         img:"https://firebasestorage.googleapis.com/v0/b/curriculum-vatea.appspot.com/o/Hestia.webp?alt=media&token=1ce01670-9fc0-49b1-8690-ccf31672e3cf",
         title:"Hestia",
-        info:"También cuenta con varias opciones, una de las opciones mas destacadas es descargar archivos formato mp4 y mp3 de youtube; está hecha en python",
+        info:"Hestia Es una aplicación creada en Python, que su principal fue es organizar archivos. También cuenta con varias opciones las cuales son Descargar videos y audios de YouTube, también tiene un convertidor de Word a PDF y viceversa.",
         link:"https://github.com/ibarguen-dev/Hestia",
         buttonGithub:"https://github.com/ibarguen-dev/Hestia",
         buttonWeb:"https://github.com/ibarguen-dev/Hestia/releases"
@@ -19,7 +19,7 @@ export const apps = [
     {
         img:"https://firebasestorage.googleapis.com/v0/b/curriculum-vatea.appspot.com/o/tres%20en%20raya.png?alt=media&token=8a605be8-6a69-4198-93c8-ef2daa7e0423",
         title:"Tres en raya",
-        info:"Es el juego tres en raya diseñado en react ",
+        info:"Es el juego de tres en raya, creado en react. Su creación fue para la mejora de la lógica y el uso de useState y useEffect",
         link:"https://tres-en-raya-swart.vercel.app/",
         buttonGithub:"https://github.com/ibarguen-dev/Tres-en-raya",
         buttonWeb:"https://tres-en-raya-6pinidcit-juantorres-dev.vercel.app/"
