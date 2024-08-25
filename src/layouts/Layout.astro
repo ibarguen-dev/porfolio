@@ -19,10 +19,15 @@ const { description, title } = Astro.props
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
-    <meta property="twitter:image" content="/logo.svg">
-    <meta property="twitter:card" content="/logo.svg">
+    <meta property="twitter:image" content="">
+    <meta property="twitter:card" content="">
     <meta property="twitter:title" content={title}>
     <meta property="twitter:description" content={description}>
+    <meta property="og:image" content="/logo.svg">
+    <meta property="og:site_name" content="/logo.svg">
+    <meta property="og:title" content={title}>
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content="porfolio-ibarguen-dev.vercel.app">
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
