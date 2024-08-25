@@ -1,0 +1,115 @@
+---
+import GitHub from "./icons/GitHub.astro"
+import NextJS from "./icons/NextJS.astro"
+import Tailwind from "./icons/Tailwind.astro"
+import Link from "./icons/Link.astro"
+import LinkButton from "./LinkButton.astro"
+import Angular from "./icons/Angular.astro"
+import Python from "./icons/Python.astro"
+const TAGS = {
+  NEXT: {
+    name: "Next.js",
+    class: "bg-black text-white",
+    icon: NextJS,
+  },
+  TAILWIND: {
+    name: "Tailwind CSS",
+    class: "bg-[#003159] text-white", //f3ed2c
+    icon: Tailwind,
+  },
+  ANGULAR:{
+    name: "Angular",
+    class: "bg-[#fc1e1e] text-white",
+    icon: Angular
+  },
+  PYTHON:{
+    name: "Python",
+    class: "bg-[#f3ed2c] text-blue-900",
+    icon: Python
+  }
+}
+const PROJECTS = [
+  {
+    title: "Arbol Colombia Insights",
+    description:
+      "Página de análisis de forestación en el 2019 a nivel departamental de Antioquia. Creado desde cero con Angular, Tailwind CSS y python.",
+    github: "https://github.com/pheralb/svgl",
+    image: "/projects/arbolColombia.webp",
+    alt:"Arbol Colombia Insights",
+    tags: [TAGS.ANGULAR, TAGS.TAILWIND],
+  },
+  {
+    title: "Hestia",
+    description:
+      "Hestia Es una aplicación su principal fue es organizar archivos, También cuenta con varias opciones las cuales son Descargar videos y audios de YouTube, también tiene un convertidor de Word a PDF y viceversa. Creada desde cero con Python",
+    link: "https://github.com/ibarguen-dev/Hestia/releases/tag/v1.1.1",
+    github:"https://github.com/ibarguen-dev/Hestia",
+    image: "/projects/Hestia.webp",
+    alt:"hestia",
+    tags: [TAGS.PYTHON],
+  },
+  {
+    title: "Cutlinks",
+    description:
+      "Cutlinks es un acortador de links muy facil de manejar y gratis. Creada desde cero con Angular, React y Tailwind CSS.",
+    link: "https://cutlinks-six.vercel.app/",
+    image: "/projects/cutlinks.webp",
+    alt:"cutlinks",
+    tags: [TAGS.ANGULAR, TAGS.TAILWIND],
+  },
+]
+---
+
+<div class="flex flex-col gap-y-16">
+  {
+    PROJECTS.map(({ image, title, description, tags, link, github,alt }) => (
+    <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+  <div class="w-full md:w-1/2">
+    <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+      <img alt={alt} class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+    </div>
+  </div>
+
+  <div class="w-full md:w-1/2 md:max-w-lg">
+    <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
+      {title}
+    </h3>
+    <div class="flex flex-wrap mt-2">
+      <ul class="flex flex-row mb-2 gap-x-2">
+          {tags.map((tag) => (
+            <li>
+              <span
+                class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
+              >
+                <tag.icon class="size-4" />
+                {tag.name}
+              </span>
+            </li>
+          ))}
+        </ul>
+
+      <div class="mt-2 text-gray-700 dark:text-gray-400">{description}</div>
+      <footer class="flex items-end justify-start mt-4 gap-x-4">
+          {github && (
+            <LinkButton href={github}>
+              <GitHub class="size-6" />
+              Code
+              
+            </LinkButton>
+          )}
+          {link && (
+            <LinkButton href={link}>
+              <Link class="size-4" />
+              Preview
+            </LinkButton>
+          )}
+        </footer>
+    </div>
+  </div>
+</article>
+    ))
+  }
+</div>
+
+
+
